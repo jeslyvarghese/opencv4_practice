@@ -28,7 +28,7 @@
             "name": "clang++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/build/${fileBasenameNoExtension}",
             "args": [
                 "/Users/jeslyvarghese/Downloads/theta.jpg"
             ],

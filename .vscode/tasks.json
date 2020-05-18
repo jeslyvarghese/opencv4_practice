@@ -20,7 +20,7 @@
             "-lopencv_videoio",
             "${file}",
             "-o",
-            "${fileDirname}/${fileBasenameNoExtension}"
+            "${fileDirname}/build/${fileBasenameNoExtension}"
         ],
         "options": {
           "cwd": "${workspaceFolder}"
